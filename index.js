@@ -2,6 +2,9 @@ function Dribbble(config) {
   this.config = config;
 }
 
+Dribbble.request = function(patchFunc) {
+};
+
 Dribbble.prototype.authenticate = function(info) {
   if (info.type !== 'oauth') {
     throw new Error('type should be "oauth"');

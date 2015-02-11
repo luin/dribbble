@@ -1,6 +1,6 @@
 {
   "name": "dribbble",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A dribbble client",
   "main": "index.js",
   "scripts": {
